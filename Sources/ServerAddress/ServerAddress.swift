@@ -9,4 +9,8 @@ public struct ServerAddress: Equatable {
         self.location = location
         self.port = port
     }
+    
+    public var description: String {
+        return "\(location):\(port)"
+    }
 }
